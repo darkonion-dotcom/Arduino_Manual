@@ -1,0 +1,16 @@
+LISTA DE MATERIALES - CARACTERIZACIÓN EXPERIMENTAL DE LA DESCARGA RC
+
+1. Hardware y Microcontrolador:
+   - 1x Tarjeta Arduino Uno (ADC de 10 bits para muestreo temporal)
+   - 1x Cable USB para transmisión serial y alimentación
+   - 1x Protoboard
+   - Cables de conexión
+
+3. Componentes Electrónicos:
+   - 1x Capacitor electrolítico (valor nominal de 470 \mu F)
+   - 1x Resistencia de carbón (valor nominal de 10 k\Omega)
+   - 1x Sistema de conmutación manual o circuito para alternar entre fases de carga (5V) y descarga
+
+4. Software de Adquisición y Análisis:
+   - IDE de Arduino / Script de Python para captura síncrona en tiempo real
+   - Librerías científicas para ajuste por mínimos cuadrados no lineales y propagación de errores

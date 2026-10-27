@@ -1,0 +1,16 @@
+LISTA DE MATERIALES - CARACTERIZACIÓN EXPERIMENTAL RIGUROSA DEL DIODO DE SILICIO (FR207-MIC)
+
+1. Hardware y Microcontrolador:
+   - 1x Tarjeta Arduino Uno (con conversor analógico-digital ADC de 10 bits)
+   - 1x Cable USB de conexión y alimentación
+   - 1x Protoboard (placa de pruebas)
+   - Cables de conexión (jumper wires)
+
+2. Componentes Electrónicos:
+   - 1x Potenciómetro manual (para el divisor de tensión de 0V a 5V)
+   - 1x Resistencia shunt nominal de 330 \Omega (medida con multímetro para precisión)
+   - 1x Diodo de silicio FR207-MIC
+
+3. Instrumentación y Software:
+   - 1x Multímetro digital (para calibración independiente de V_REF y R_real)
+   - Python 3.x con librerías para adquisición y ajuste no lineal (Levenberg-Marquardt y función W de Lambert)

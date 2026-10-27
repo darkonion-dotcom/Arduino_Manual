@@ -1,0 +1,22 @@
+LISTA DE MATERIALES - DETERMINACIÓN DE LA CONSTANTE DE PLANCK (MÉTODO I-V)
+
+1. Hardware y Microcontrolador:
+   - 1x Tarjeta Arduino (Uno o compatible) con cable USB de conexión
+   - 1x Protoboard (placa de pruebas)
+   - Cables de conexión macho-macho (jumper wires)
+
+2. Componentes Electrónicos:
+   - 1x Potenciómetro de 5 k\Omega (para el divisor de voltaje ajustable)
+   - 1x Resistencia de 330 \Omega (bandas: Naranja, Naranja, Negro, Negro, Café / o Naranja, Naranja, Café, Dorado)
+   - 1x Diodo LED Rojo
+   - 1x Diodo LED Verde
+   - 1x Diodo LED Blanco
+
+3. Software y Entorno de Desarrollo:
+   - IDE de Arduino (para cargar el código de lectura analógica y transmisión serial)
+   - Python 3.x con las siguientes librerías instaladas:
+     * pyserial (para comunicación con el puerto COM)
+     * pandas (para el manejo de archivos CSV)
+     * numpy (para cálculos vectoriales)
+     * matplotlib (para la generación de gráficas I-V)
+     * scipy (para la regresión lineal)

@@ -1,0 +1,16 @@
+LISTA DE MATERIALES - LEY DE TORRICELLI
+
+1. Hardware y Microcontrolador:
+   - 1x Tarjeta Arduino Uno
+   - 1x Transductor acústico ultrasónico HC-SR04 (tasa de muestreo de 20 Hz)
+   - 1x Protoboard y cables de conexión
+
+2. Sistema Hidrodinámico:
+   - 1x Recipiente o tanque cilíndrico de sección uniforme (diámetro de 21.0 cm, altura de 17.0 cm)
+   - 1x Orificio calibrado en la base lateral del recipiente (diámetro de 6 mm)
+   - Fluido de trabajo: Agua
+
+3. Software y Procesamiento:
+   - Firmware en Arduino para el disparo de pulsos ultrasónicos
+   - Script en Python para automatización del puerto serial y disparo por software (gatillo de desplazamiento)
+   - Librerías de ajuste de curvas no lineales (Levenberg-Marquardt) y análisis estocástico
